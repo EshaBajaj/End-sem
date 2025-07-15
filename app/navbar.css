@@ -1,0 +1,104 @@
+.custom-navbar{
+    background: linear-gradient(135deg, #1e2028, #001f4d);
+    border-bottom: 2px solid #5f6b78;
+    padding: 1rem;
+}
+.custom-navbar .navbar-brand {
+  padding: 0.2rem 0.5rem;
+  margin-right: 2rem; 
+}
+
+.custom-navbar .nav-link {
+  padding: 0.5rem 1rem;
+  margin: 0 0.3rem;
+}
+.carousel-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.nav-link {
+  transition: all 0.9s ease;
+}
+
+.nav-link:hover {
+  color: silver !important;
+  text-shadow: 0 0 10px rgba(240, 239, 239, 0.7);
+}
+
+.icon-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.icon-hover:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.95);
+}
+
+.partners-container {
+  padding: 60px 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #001f3f;
+}
+
+.partners-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.partner-pill {
+  background-color: white;
+  border-radius: 999px;
+  padding: 15px 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  position: relative;
+  cursor: pointer;
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.partner-pill:hover {
+  transform: scale(1.05);
+}
+
+.company-logo {
+  height: 60px;
+  width: auto;
+}
+
+.student-popup {
+  position: absolute;
+  top: -130px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  min-width: 150px;
+  text-align: center;
+}
+
+.student-photo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #001f3f;
+  box-shadow: 0 0 6px rgba(10, 11, 40, 0.761);
+}
+
+.student-info {
+  margin-top: 8px;
+  font-size: 0.85rem;
+}
